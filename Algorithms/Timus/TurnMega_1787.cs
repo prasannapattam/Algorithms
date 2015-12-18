@@ -9,6 +9,13 @@ namespace Algorithms.Timus
     //http://acm.timus.ru/problem.aspx?space=1&num=1787
     public static class TurnMega_1787
     {
+        public static void Test()
+        {
+            //Console.WriteLine(TurnMega(5, 3, new int[] { 6, 7, 2 }));
+            Console.WriteLine(TurnMega(5, 3, new int[] { 6, 2, 7 }));
+            //Console.WriteLine(TurnMega(4, 4, new int[] { 1, 5, 1, 5 }));
+        }
+
         private static int TurnMega(int k, int n, int[] a)
         {
             int current = 0;
@@ -27,11 +34,5 @@ namespace Algorithms.Timus
             return current;
         }
 
-        public static void Test()
-        {
-            //Console.WriteLine(TurnMega(5, 3, new int[] { 6, 7, 2 }));
-            Console.WriteLine(TurnMega(5, 3, new int[] { 6, 2, 7 }));
-            //Console.WriteLine(TurnMega(4, 4, new int[] { 1, 5, 1, 5 }));
-        }
     }
 }

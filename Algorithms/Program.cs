@@ -12,8 +12,10 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Berry_2001.Test();
+            Psych_1880.Test();
         }
 
+
+        //Psych_1880 -- Matching values in an array of integers
     }
 }
