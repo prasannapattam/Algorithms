@@ -12,7 +12,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Psych_1880.Test();
+            Knight_1197.Test();
         }
 
 

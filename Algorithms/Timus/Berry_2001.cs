@@ -20,16 +20,17 @@ namespace Algorithms.Timus
         {
             return new Basket(b1.M1 - b3.M1, b1.M2 - b2.M2);
         }
+
+        public class Basket
+        {
+            public Basket(int m1, int m2)
+            {
+                this.M1 = m1;
+                this.M2 = m2;
+            }
+            public int M1 { get; set; }
+            public int M2 { get; set; }
+        }
     }
 
-    public class Basket
-    {
-        public Basket(int m1, int m2)
-        {
-            this.M1 = m1;
-            this.M2 = m2;
-        }
-        public int M1 { get; set; }
-        public int M2 { get; set; }
-    }
 }

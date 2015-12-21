@@ -118,36 +118,36 @@ namespace Algorithms.Timus
             return eigenCount;
         }
 
-    }
-
-    public class PlayerEigen
-    {
-        public  PlayerEigen(int[] eigenValues)
+        public class PlayerEigen
         {
-            EigenCount = eigenValues.Length;
-            EigenValues = eigenValues;
-        }
-
-        public int EigenCount { get; set; }
-        public int[] EigenValues { get; set; }
-
-        public int CurrentIndex { get; set; }
-
-        public int CurrentValue
-        {
-            get
+            public PlayerEigen(int[] eigenValues)
             {
-                return EigenValues[CurrentIndex];
+                EigenCount = eigenValues.Length;
+                EigenValues = eigenValues;
+            }
+
+            public int EigenCount { get; set; }
+            public int[] EigenValues { get; set; }
+
+            public int CurrentIndex { get; set; }
+
+            public int CurrentValue
+            {
+                get
+                {
+                    return EigenValues[CurrentIndex];
+                }
+            }
+
+            public bool MoveNext()
+            {
+                CurrentIndex++;
+                if (EigenCount != CurrentIndex)
+                    return true;
+                else
+                    return false;
             }
         }
-
-        public bool MoveNext()
-        {
-            CurrentIndex++;
-            if (EigenCount != CurrentIndex)
-                return true;
-            else
-                return false;
-        }
     }
+
 }
