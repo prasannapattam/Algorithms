@@ -1,4 +1,5 @@
 ﻿using Algorithms.Code;
+using Algorithms.Timus;
 
 namespace Algorithms
 {
@@ -6,7 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Base_Minus2.Test();
+            Sport_1313.Test();
         }
 
     }
