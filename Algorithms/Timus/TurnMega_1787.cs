@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithms.Timus
 {
     //http://acm.timus.ru/problem.aspx?space=1&num=1787
+    //Finding incoming and outgoing (queue) and calculating existing items
     public static class TurnMega_1787
     {
         public static void Test()

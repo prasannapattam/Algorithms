@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithms.Timus
 {
     //http://acm.timus.ru/problem.aspx?space=1&num=2001
+    //calculating weight of the basket
     public static class Berry_2001
     {
         public static void Test()

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithms.Timus
 {
     //http://acm.timus.ru/problem.aspx?space=1&num=1880
+    //Finding a list of common numbers in multiple arrays
     public static class Psych_1880
     {
         public static void Test()

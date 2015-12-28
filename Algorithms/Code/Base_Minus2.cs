@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorithms.Code
 {
+    //Get the numerical representation of any base
     public class Base_Minus2
     {
         public static void Test()

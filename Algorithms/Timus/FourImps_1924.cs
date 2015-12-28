@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithms.Timus
 {
     //http://acm.timus.ru/forum/?space=1&num=1924
+    //Finding even or odd in a sequence of consequtive numbers starting from 1
     public static class FourImps_1924
     {
         public static void Test()

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithms.Timus
 {
     //http://acm.timus.ru/problem.aspx?space=1&num=1910
+    //finding max sum of three numbers in an array
     public class Entrance_1910
     {
         public static void Test()

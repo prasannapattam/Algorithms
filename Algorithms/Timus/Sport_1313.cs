@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithms.Timus
 {
     //http://acm.timus.ru/problem.aspx?space=1&num=1313
+    //Displaying a diagonal numbers into a flat structure
     public static class Sport_1313
     {
         public static void Test()

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Algorithms.Timus
 {
     //http://acm.timus.ru/problem.aspx?space=1&num=1197
+    //Possible moves for a Knight on a chess board
     public static class Knight_1197
     {
         public static void Test()
