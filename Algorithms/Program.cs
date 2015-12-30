@@ -7,7 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            SMS_1567.Test();
+            Hotel_1319.Test();
         }
 
     }
