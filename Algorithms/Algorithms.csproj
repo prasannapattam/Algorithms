@@ -58,6 +58,7 @@
     <Compile Include="Timus\SMS_1567.cs" />
     <Compile Include="Timus\Sport_1313.cs" />
     <Compile Include="Timus\SumNegativePositive_1068.cs" />
+    <Compile Include="Timus\Teamwork_1581.cs" />
     <Compile Include="Timus\TurnMega_1787.cs" />
   </ItemGroup>
   <ItemGroup>
