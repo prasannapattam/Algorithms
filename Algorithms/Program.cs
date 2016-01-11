@@ -7,7 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Teamwork_1581.Test();
+            Flags_1225.Test();
         }
 
     }
