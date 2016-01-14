@@ -55,6 +55,7 @@
     <Compile Include="Timus\FourImps_1924.cs" />
     <Compile Include="Timus\Hotel_1319.cs" />
     <Compile Include="Timus\Knight_1197.cs" />
+    <Compile Include="Timus\Penguin_1585.cs" />
     <Compile Include="Timus\Psych_1880.cs" />
     <Compile Include="Timus\Sequence10_1209.cs" />
     <Compile Include="Timus\SMS_1567.cs" />

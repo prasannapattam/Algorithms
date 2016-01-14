@@ -7,8 +7,12 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Elections_1263.Test();
+            Penguin_1585.Test();
         }
+
+
+        //To check next
+        //http://www.ideserve.co.in/learn/array-interview-questions
 
     }
 }

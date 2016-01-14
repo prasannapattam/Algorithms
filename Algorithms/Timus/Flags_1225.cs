@@ -11,17 +11,15 @@ namespace Algorithms.Timus
     //Place flags next to each other
     public static class Flags_1225
     {
-        private static long[] fibNumbers;
-
         public static void Test()
         {
             DateTime dtStart = DateTime.Now;
 
-            int number = 100;
+            int number = 10;
 
-            fibNumbers = new long[number + 1];
+            Console.WriteLine("printing the Fibonacci numbers");
 
-            for(int counter = 1; counter <= number; counter ++)
+            for (int counter = 0; counter <= number; counter ++)
                 GetWays(counter);
 
             DateTime dtEnd = DateTime.Now;
@@ -35,36 +33,37 @@ namespace Algorithms.Timus
         {
             long result = 2;
 
+            //printing the Fibonacci numbers
+            result = GetFibonacciNumber(stripe);
+            Console.WriteLine(result);
+
+
             if (stripe != 1 && stripe != 2)
             {
-                result = GetFibonacciSum(stripe);
-
+                result = GetFibonacciNumber(stripe);
                 //multiplying by 2 to get the actual value
                 result *= 2;
             }
 
-            Console.WriteLine("Stripe: {0}, Ways: {1}", stripe, result);
+            //Console.WriteLine("Stripe: {0}, Ways: {1}", stripe, result);
 
             return result;
         }
 
-        public static long GetFibonacciSum(int number)
+        public static long GetFibonacciNumber(int number)
         {
-            if (fibNumbers[number] != 0)
-                return fibNumbers[number];
+            if (number == 0 || number == 1)
+                return number;
 
-            long nextNumber = 0;
-            if(number <= 1)
+            long a = 0, b = 1, c = a + b;
+            for(int counter = 2; counter <= number; counter++)
             {
-                nextNumber = number < 0 ? 0 : number;
-            }
-            else
-            {
-                nextNumber = GetFibonacciSum(number - 1) + GetFibonacciSum(number - 2);
+                c = a + b;
+                a = b;
+                b = c;
             }
 
-            fibNumbers[number] = nextNumber;
-            return nextNumber;
+            return c;
         }
     }
 }
