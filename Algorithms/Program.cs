@@ -7,7 +7,7 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Flags_1225.Test();
+            Elections_1263.Test();
         }
 
     }
